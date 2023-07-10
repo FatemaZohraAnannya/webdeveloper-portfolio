@@ -185,21 +185,53 @@ main section {
     font-weight: 700;
     margin-bottom: 10px;
 }
-.resume-item-institute{
-    margin-bottom:20px ;
+
+.resume-item-institute {
+    margin-bottom: 20px;
     margin-top: 0px;
 }
 
-.resume-item-description, .resume-item-institute {
+.resume-item-description,
+.resume-item-institute {
     color: #757575;
 }
-.resume-container hr{
-    margin: 30px;
+
+.resume-container hr {
+    margin: 30px 0;
 }
-.download-cv{
+
+.download-cv {
     text-align: center;
     margin-top: 50px;
     margin-bottom: 70px;
 }
 
+
 /* footer form styles */
+footer {
+    display: flex;
+    background: #FFF8F3;
+    gap: 100px;
+    margin-top: 100px;
+    padding: 130px 230px;
+}
+
+.footer-column {
+    width: 50%;
+}
+.social-links a{
+    margin-right: 24px;
+}
+
+.contact input[type="text"], .contact input[type="email"],
+textarea {
+    display: block;
+    margin-bottom: 24px;
+    padding: 18px 35px;
+    color: #757575;
+    border-radius: 5px;
+    background:#FFF;
+    border: 0;
+    width: 100%;
+}
+/* .contact input */
